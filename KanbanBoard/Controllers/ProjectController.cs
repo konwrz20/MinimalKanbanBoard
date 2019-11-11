@@ -14,15 +14,15 @@ namespace KanbanBoard.Controllers {
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Models.Project>> Get() {
+        public async Task<IEnumerable<Model.Project>> Get() {
             return null;
         }
 
         [HttpPost]
-        public async Task Post(Models.Project project) { }
+        public async Task Post(Model.Project project) { }
 
         [HttpPut("{id}")]
-        public async Task Put(long id, Models.Project project) { }
+        public async Task Put(long id, Model.Project project) { }
 
         [HttpDelete("{id}")]
         public async Task Delete(long id) { }

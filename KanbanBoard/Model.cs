@@ -1,8 +1,7 @@
 using System;
-using Microsoft.AspNetCore.Identity;
 
 namespace KanbanBoard {
-    public class Models {
+    public static class Model {
         public class Project {
             public long           Id           { get; set; }
             public string         Name         { get; set; }
