@@ -158,14 +158,22 @@
           <e p="ProjectController.cs" t="Include" />
           <e p="TaskController.cs" t="Include" />
         </e>
+        <e p="Database" t="Include">
+          <e p="Documents.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="MongoDatabaseExtensions.cs" t="Include" />
+          <e p="MongoDocument.cs" t="Include" />
+          <e p="ServiceCollectionExtensions.cs" t="Include" />
+        </e>
         <e p="KanbanBoard.csproj" t="IncludeRecursive" />
+        <e p="Mapper.cs" t="Include" />
         <e p="Model.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
