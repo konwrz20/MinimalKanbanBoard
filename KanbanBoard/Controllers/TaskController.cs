@@ -26,8 +26,10 @@ namespace KanbanBoard.Controllers {
         }
 
         [HttpPost]
-        public async Task Post(Model.Task task, CancellationToken cancellationToken) {
+        public async Task<Model.Task> Post(Model.Task task, CancellationToken cancellationToken) {
+            task.Id = Guid.NewGuid();
             await _database.Insert(task.ToDocument(), cancellationToken);
+            return task;
         }
 
         [HttpPut("{id}")]
