@@ -1,2 +1,2 @@
-# KanbanBoard
-Just kanban board
+# MinimalKanbanBoard
+Just minimal kanban board

@@ -4,8 +4,8 @@
     <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_KanbanBoard.-1008565006.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="KanbanBoard" t="IncludeRecursive">
-        <e p=".gitignore" t="Include" />
+      <e p="KanbanBoard.sln" t="IncludeFlat" />
+      <e p="MinimalKanbanBoard" t="IncludeRecursive">
         <e p="ClientApp" t="Include">
           <e p=".eslintrc.json" t="Include" />
           <e p=".gitignore" t="Include" />
@@ -77,48 +77,7 @@
           <e p="node_modules/source-map" t="IncludeRecursive" />
           <e p="node_modules/symbol-observable" t="IncludeRecursive" />
           <e p="node_modules/tslib" t="IncludeRecursive" />
-          <e p="node_modules/typescript" t="IncludeRecursive">
-            <e p="lib/lib.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.dom.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.dom.iterable.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.collection.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.core.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.generator.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.iterable.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.promise.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.proxy.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.reflect.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.symbol.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2016.array.include.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2016.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2016.full.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2017.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2017.full.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2017.intl.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2017.object.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2017.string.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2018.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2018.full.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2018.intl.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2018.promise.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es2018.regexp.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es5.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.es6.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.esnext.array.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.esnext.bigint.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.esnext.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.esnext.full.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.esnext.intl.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.esnext.symbol.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.scripthost.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.webworker.d.ts" t="IncludeRecursive" />
-            <e p="lib/lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
-          </e>
+          <e p="node_modules/typescript" t="IncludeRecursive" />
           <e p="node_modules/typescript-eslint-parser" t="IncludeRecursive" />
           <e p="node_modules/upath" t="IncludeRecursive" />
           <e p="node_modules/worker-farm" t="IncludeRecursive" />
@@ -133,20 +92,22 @@
             <e p="App.test.tsx" t="Include" />
             <e p="App.tsx" t="Include" />
             <e p="components" t="Include">
-              <e p="Counter.tsx" t="Include" />
-              <e p="FetchData.tsx" t="Include" />
-              <e p="Home.tsx" t="Include" />
+              <e p="Backlog.tsx" t="Include" />
+              <e p="Board.tsx" t="Include" />
               <e p="Layout.tsx" t="Include" />
               <e p="NavMenu.css" t="Include" />
               <e p="NavMenu.tsx" t="Include" />
+              <e p="People.tsx" t="Include" />
+              <e p="Projects.tsx" t="Include" />
             </e>
             <e p="custom.css" t="Include" />
             <e p="index.tsx" t="Include" />
             <e p="react-app-env.d.ts" t="Include" />
             <e p="registerServiceWorker.ts" t="Include" />
             <e p="store" t="Include">
-              <e p="Counter.ts" t="Include" />
-              <e p="WeatherForecasts.ts" t="Include" />
+              <e p="People.ts" t="Include" />
+              <e p="Projects.ts" t="Include" />
+              <e p="Tasks.ts" t="Include" />
               <e p="configureStore.ts" t="Include" />
               <e p="index.ts" t="Include" />
             </e>
@@ -166,8 +127,8 @@
           <e p="MongoDocument.cs" t="Include" />
           <e p="ServiceCollectionExtensions.cs" t="Include" />
         </e>
-        <e p="KanbanBoard.csproj" t="IncludeRecursive" />
         <e p="Mapper.cs" t="Include" />
+        <e p="MinimalKanbanBoard.csproj" t="IncludeRecursive" />
         <e p="Model.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -179,12 +140,11 @@
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
-              <e p="KanbanBoard.AssemblyInfo.cs" t="Include" />
+              <e p="MinimalKanbanBoard.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
       </e>
-      <e p="KanbanBoard.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
